@@ -1,0 +1,1893 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260415195839
+Nombre de usuario: DESKTOP-Q7Q76UG\Alan
+Usuario RunAs: DESKTOP-Q7Q76UG\Alan
+Nombre de la configuración: 
+Máquina: DESKTOP-Q7Q76UG (Microsoft Windows NT 10.0.19045.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 23476
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es D:\Ciencia de Datos\Curso-E520-2026C1\TP1\tp1.txt
+PS C:\Users\Alan> pwd
+
+Path
+----
+C:\Users\Alan
+
+
+PS C:\Users\Alan> pwd
+
+Path
+----
+C:\Users\Alan
+
+
+PS C:\Users\Alan> cd home
+cd : No se encuentra la ruta de acceso 'C:\Users\Alan\home' porque no existe.
+En línea: 1 Carácter: 1
++ cd home
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\home:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\Alan\home' porque no existe.
+En línea: 1 Carácter: 1
++ cd home
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\home:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Alan> cd
+PS C:\Users\Alan> cd /
+PS C:\> cd Users/Alan
+PS C:\Users\Alan> whoami
+desktop-q7q76ug\alan
+PS C:\Users\Alan> cd /home/Alan/Desktop
+cd : No se encuentra la ruta de acceso 'C:\home\Alan\Desktop' porque no existe.
+En línea: 1 Carácter: 1
++ cd /home/Alan/Desktop
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\home\Alan\Desktop:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\home\Alan\Desktop' porque no existe.
+En línea: 1 Carácter: 1
++ cd /home/Alan/Desktop
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\home\Alan\Desktop:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Alan> dir
+
+
+    Directorio: C:\Users\Alan
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         10/5/2021     18:39                .android
+d-----         26/9/2022     18:57                .cache
+d-----         14/4/2026     22:07                .codex
+d-----         3/11/2025     20:33                .conda
+d-----        24/11/2021     19:27                .continuum
+d-----         10/9/2025     13:32                .ipynb_checkpoints
+d-----        21/10/2021     07:04                .ipython
+d-----         18/4/2022     22:20                .jupyter
+d-----        21/10/2021     07:04                .matplotlib
+d-----          1/7/2022     07:11                .ms-ad
+d-----         15/4/2026     01:06                .openclaw
+d-----         29/3/2025     14:15                .spyder-py3
+d-----         24/2/2023     20:14                .VirtualBox
+d-----         2/12/2021     22:17                .vscode
+d-r---         27/3/2023     19:06                3D Objects
+d-----         12/2/2025     20:56                ado
+d-----         13/7/2022     22:35                ansel
+d-----         28/8/2021     12:03                Application Data
+d-r---         27/3/2023     19:06                Contacts
+d-r---         16/3/2026     09:30                Desktop
+d-----         19/3/2026     23:08                diversionConPowerShell
+d-r---         15/4/2026     16:13                Documents
+d-r---         12/3/2026     18:22                Downloads
+d-r---         27/3/2023     19:06                Favorites
+d-----        31/10/2025     15:00                Games
+d-----         25/1/2025     03:19                Jedi
+d-r---         27/3/2023     19:06                Links
+d-----         30/7/2022     16:03                Microsoft
+d-r---         27/3/2023     19:06                Music
+dar---          8/2/2026     14:08                OneDrive
+d-r---        30/10/2024     11:27                Pictures
+d-----         25/1/2025     03:08                python
+d-r---          4/3/2025     20:04                Saved Games
+d-r---         27/3/2023     19:07                Searches
+d-r---         15/4/2026     10:38                Videos
+d-----         29/1/2023     16:55                VirtualBox VMs
+-a----         23/7/2025     16:30             42 .condarc
+-a----         13/4/2026     23:03             50 .gitconfig
+-a----         23/7/2025     14:20            241 .RData
+-a----         23/7/2025     14:20           9752 .Rhistory
+-a----         14/4/2026     23:06             83 .zshrc
+-a----         28/5/2023     00:55          39731 8.-Cadenas.ipynb
+-a----         23/5/2021     19:53           5938 AMDRM_Install.log
+-a----         23/5/2021     19:50        2558590 AMD_RyzenMaster.log
+-a----         18/5/2023     22:56        1290091 Beneficio Indirecto.ipynb
+-a----          5/5/2022     21:22        3814598 Calculadora con Plotly.ipynb
+-a----          5/5/2022     21:14           6075 Calculadora Nueva Versión-Copy1.ipynb
+-a----          5/5/2022     21:16           6227 Calculadora Nueva Versión.ipynb
+-a----          2/5/2025     00:22          10732 Calculadora Volumen Operado Merval.ipynb
+-a----         22/5/2023     18:56          10804 Calculadora.ipynb
+-a----          4/7/2025     15:42           6681 comparacion_interanual.xlsx
+-a----         26/6/2022     17:51         432853 Gráficos Salariales  VERSIÓN MARZO.ipynb
+-a----         25/1/2025     03:12        1023738 install.log
+-a----         3/10/2025     14:04           3499 Precio del Brent.ipynb
+-a----         12/5/2023     20:04           2773 Untitled.ipynb
+-a----         13/5/2023     19:03           2445 Untitled1.ipynb
+-a----         14/5/2023     13:26           1360 Untitled2.ipynb
+-a----         22/5/2023     18:57        3731678 Untitled3.ipynb
+-a----         22/5/2023     18:56        3782078 Untitled4.ipynb
+-a----         23/4/2022     18:20          82195 Variaciones Salariales.ipynb
+-a----          4/7/2025     15:56          12007 Volumen BYMA.ipynb
+
+
+PS C:\Users\Alan> cd Desktop
+PS C:\Users\Alan\Desktop> dir
+
+
+    Directorio: C:\Users\Alan\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         24/4/2022     02:06                python-website
+-a----          1/4/2023     08:57           2390 Alan - Chrome.lnk
+-a----          4/7/2025     14:57           4151 app de python.txt
+-a----        14/11/2025     12:47           1376 CapCut.lnk
+-a----         10/4/2026     14:17           2242 Discord.lnk
+-a----         29/7/2023     00:47           1159 MSI Afterburner.lnk
+-a----        21/11/2025     15:52          13438 PlayList de Tangos.docx
+-a----         2/12/2023     17:12           2301 Stremio.lnk
+-a----         18/9/2022     18:31          15134 tasklist.txt
+-a----         29/8/2025     12:26           1874 uTorrent Web.lnk
+-a----         16/3/2026     09:30           1948 Zoom Workplace.lnk
+
+
+PS C:\Users\Alan\Desktop> cd ..
+PS C:\Users\Alan> dir
+
+
+    Directorio: C:\Users\Alan
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         10/5/2021     18:39                .android
+d-----         26/9/2022     18:57                .cache
+d-----         14/4/2026     22:07                .codex
+d-----         3/11/2025     20:33                .conda
+d-----        24/11/2021     19:27                .continuum
+d-----         10/9/2025     13:32                .ipynb_checkpoints
+d-----        21/10/2021     07:04                .ipython
+d-----         18/4/2022     22:20                .jupyter
+d-----        21/10/2021     07:04                .matplotlib
+d-----          1/7/2022     07:11                .ms-ad
+d-----         15/4/2026     01:06                .openclaw
+d-----         29/3/2025     14:15                .spyder-py3
+d-----         24/2/2023     20:14                .VirtualBox
+d-----         2/12/2021     22:17                .vscode
+d-r---         27/3/2023     19:06                3D Objects
+d-----         12/2/2025     20:56                ado
+d-----         13/7/2022     22:35                ansel
+d-----         28/8/2021     12:03                Application Data
+d-r---         27/3/2023     19:06                Contacts
+d-r---         16/3/2026     09:30                Desktop
+d-----         19/3/2026     23:08                diversionConPowerShell
+d-r---         15/4/2026     16:13                Documents
+d-r---         12/3/2026     18:22                Downloads
+d-r---         27/3/2023     19:06                Favorites
+d-----        31/10/2025     15:00                Games
+d-----         25/1/2025     03:19                Jedi
+d-r---         27/3/2023     19:06                Links
+d-----         30/7/2022     16:03                Microsoft
+d-r---         27/3/2023     19:06                Music
+dar---          8/2/2026     14:08                OneDrive
+d-r---        30/10/2024     11:27                Pictures
+d-----         25/1/2025     03:08                python
+d-r---          4/3/2025     20:04                Saved Games
+d-r---         27/3/2023     19:07                Searches
+d-r---         15/4/2026     10:38                Videos
+d-----         29/1/2023     16:55                VirtualBox VMs
+-a----         23/7/2025     16:30             42 .condarc
+-a----         13/4/2026     23:03             50 .gitconfig
+-a----         23/7/2025     14:20            241 .RData
+-a----         23/7/2025     14:20           9752 .Rhistory
+-a----         14/4/2026     23:06             83 .zshrc
+-a----         28/5/2023     00:55          39731 8.-Cadenas.ipynb
+-a----         23/5/2021     19:53           5938 AMDRM_Install.log
+-a----         23/5/2021     19:50        2558590 AMD_RyzenMaster.log
+-a----         18/5/2023     22:56        1290091 Beneficio Indirecto.ipynb
+-a----          5/5/2022     21:22        3814598 Calculadora con Plotly.ipynb
+-a----          5/5/2022     21:14           6075 Calculadora Nueva Versión-Copy1.ipynb
+-a----          5/5/2022     21:16           6227 Calculadora Nueva Versión.ipynb
+-a----          2/5/2025     00:22          10732 Calculadora Volumen Operado Merval.ipynb
+-a----         22/5/2023     18:56          10804 Calculadora.ipynb
+-a----          4/7/2025     15:42           6681 comparacion_interanual.xlsx
+-a----         26/6/2022     17:51         432853 Gráficos Salariales  VERSIÓN MARZO.ipynb
+-a----         25/1/2025     03:12        1023738 install.log
+-a----         3/10/2025     14:04           3499 Precio del Brent.ipynb
+-a----         12/5/2023     20:04           2773 Untitled.ipynb
+-a----         13/5/2023     19:03           2445 Untitled1.ipynb
+-a----         14/5/2023     13:26           1360 Untitled2.ipynb
+-a----         22/5/2023     18:57        3731678 Untitled3.ipynb
+-a----         22/5/2023     18:56        3782078 Untitled4.ipynb
+-a----         23/4/2022     18:20          82195 Variaciones Salariales.ipynb
+-a----          4/7/2025     15:56          12007 Volumen BYMA.ipynb
+
+
+PS C:\Users\Alan> cd documents
+PS C:\Users\Alan\documents> dir
+
+
+    Directorio: C:\Users\Alan\documents
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     16:31                Archivos de Outlook
+d-----          7/4/2026     15:26                Crecimiento Económico
+d-----          3/2/2025     16:08                Curso Idoneidad CNV
+d-----          6/5/2023     00:09                Custom Office Templates
+d-----          5/4/2026     16:45                Desarrollo
+d-----        21/11/2025     17:47                Dinero, Crédito y Bancos
+d-----         11/3/2025     16:17                Econometría
+d-----         5/10/2025     02:29                Economía internacional
+d-----          7/3/2024     17:35                Estructura Social Argentina
+d-----         15/4/2026     15:07                Logística TRUCK
+d-----         21/1/2023     12:48                Macro Recorder
+d-----         21/8/2025     18:24                Macroeconomía II
+d-----         18/3/2025     19:45                Microeconomía II
+d---s-          6/8/2022     19:10                Mis archivos de origen de datos
+d-----          6/6/2025     19:06                My Games
+d-----         19/8/2025     15:49                Organización Industrial
+d-----         22/6/2021     18:07                Plantillas personalizadas de Office
+d-----         19/5/2023     22:23                Python Scripts
+d-----        26/12/2024     17:52                Terraforming Mars
+d-----         18/6/2025     23:39                TL
+d-r---         12/3/2025     16:24                Trámite AP
+d-----          5/4/2024     19:13                Zoom
+-a----          5/4/2026     16:56           8259 .RData
+-a----         15/4/2026     19:57           2146 .Rhistory
+-a----         20/6/2023     18:45          49832 BORRADOR Rta TP2.docx
+-a----         15/4/2026     16:13          82784 cartera.xlsx
+-a----        16/12/2023     15:23          13575 cuadritoschapa.docx
+-a----          4/3/2026     13:12          13852 Desde Oriente respira una bestia incomprendida.docx
+-a----         10/6/2023     21:19          20818 DRAFT - TP n°2 - OA-DA, Expectativas, Abiertas - copia.docx
+-a----         10/6/2023     21:19          20818 DRAFT - TP n°2 - OA-DA, Expectativas, Abiertas.docx
+-a----         22/5/2023     18:50         235393 ejemplo sankey.jpg
+-a----         19/5/2023     21:31            604 ejemplo.csv
+-a----         1/11/2023     21:09           8864 Gestion tarjeta santander.xlsx
+-a----         17/7/2025     13:43          69339 inscripcion 2q 2025.xlsx
+-a----         22/7/2024     21:01           9310 inscripciones 2do cuatri 2024.xlsx
+-a----         20/6/2023     19:31         142059 Respuestas TP2.pdf
+-a----          6/3/2024     17:58          28668 TP 2 - Santillan Alan - 900566.docx
+-a----         25/4/2025     12:59          10655 variacion patrimonio.xlsx
+
+
+PS C:\Users\Alan\documents> mkdir prueba
+
+
+    Directorio: C:\Users\Alan\documents
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                prueba
+
+
+PS C:\Users\Alan\documents> cd prueba
+PS C:\Users\Alan\documents\prueba> mkdir tutorial
+
+
+    Directorio: C:\Users\Alan\documents\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                tutorial
+
+
+PS C:\Users\Alan\documents\prueba> cd tutorial
+PS C:\Users\Alan\documents\prueba\tutorial> mk dir1 dir2 dir3
+mk : El término 'mk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mk dir1 dir2 dir3
++ ~~
+    + CategoryInfo          : ObjectNotFound: (mk:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+mk : El término 'mk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mk dir1 dir2 dir3
++ ~~
+    + CategoryInfo          : ObjectNotFound: (mk:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> mk dir1,dir2,dir3
+mk : El término 'mk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mk dir1,dir2,dir3
++ ~~
+    + CategoryInfo          : ObjectNotFound: (mk:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+mk : El término 'mk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mk dir1,dir2,dir3
++ ~~
+    + CategoryInfo          : ObjectNotFound: (mk:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir dir1,dir2,dir3
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir --help
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                --help
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> ls
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                --help
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir 4
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:05                4
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                --help
+d-----         15/4/2026     20:05                4
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir dir4
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:05                dir4
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm 4
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                --help
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:05                dir4
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm dir4
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                --help
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir -p dir4/dir5/dir6
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:06                dir6
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                --help
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm --help
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir4
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:06                dir5
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> cd dir5
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:06                dir6
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir --parents --verbose dir4/dir5
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '--verbose'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '--verbose'.
+En línea: 1 Carácter: 1
++ mkdir --parents --verbose dir4/dir5
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '--verbose'.
+En línea: 1 Carácter: 1
++ mkdir --parents --verbose dir4/dir5
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir another folder
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'folder'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir another,folder
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:08                folder
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir "folder 1"
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:09                folder 1
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir 'folder 2'
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:09                folder 2
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir folder\ 3
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '3'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '3'.
+En línea: 1 Carácter: 1
++ mkdir folder\ 3
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '3'.
+En línea: 1 Carácter: 1
++ mkdir folder\ 3
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir "folder 4" "folder 5"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'folder 5'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder 5'.
+En línea: 1 Carácter: 1
++ mkdir "folder 4" "folder 5"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder 5'.
+En línea: 1 Carácter: 1
++ mkdir "folder 4" "folder 5"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir "folder 4", "folder 5"
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir folder 3
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '3'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '3'.
+En línea: 1 Carácter: 1
++ mkdir folder 3
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '3'.
+En línea: 1 Carácter: 1
++ mkdir folder 3
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir "folder 3"
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:10                folder 3
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir -p "folder 6"/"folder 7"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '/folder 7'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '/folder 7'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"/"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '/folder 7'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"/"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir -p "folder 6"\"folder 7"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '\folder 7'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '\folder 7'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"\"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '\folder 7'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"\"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Alan\documents\prueba\tutorial> ErrorTerminación(TabExpansion2): "No se puede enlazar el argumento con el parámetro 'inputScript' porque es una cadena vacía."
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir "folder 6","folder 7"
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:30                folder 6
+d-----         15/4/2026     20:30                folder 7
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:30                folder 6
+d-----         15/4/2026     20:30                folder 7
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm folder 7
+>> ErrorTerminación(Remove-Item): "No se encuentra ningún parámetro de posición que acepte el argumento '7'."
+Remove-Item : No se encuentra ningún parámetro de posición que acepte el argumento '7'.
+En línea: 1 Carácter: 1
++ rm folder 7
++ ~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : No se encuentra ningún parámetro de posición que acepte el argumento '7'.
+En línea: 1 Carácter: 1
++ rm folder 7
++ ~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm "folder 7","folder 6"
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir "folder 6"\"folder 7"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '\folder 7'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '\folder 7'.
+En línea: 1 Carácter: 1
++ mkdir "folder 6"\"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '\folder 7'.
+En línea: 1 Carácter: 1
++ mkdir "folder 6"\"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Alan\documents\prueba\tutorial>  mkdir -p "folder 6"\"folder 7"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '\folder 7'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '\folder 7'.
+En línea: 1 Carácter: 2
++  mkdir -p "folder 6"\"folder 7"
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '\folder 7'.
+En línea: 1 Carácter: 2
++  mkdir -p "folder 6"\"folder 7"
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\Alan\documents\prueba\tutorial> mkdir -p "folder 6\folder 7"
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\folder 6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:32                folder 7
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cat output.txt
+cat : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\output.txt' porque no existe.
+En línea: 1 Carácter: 1
++ cat output.txt
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...rial\output.txt:String) [Get-Content], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+cat : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\output.txt' porque no existe.
+En línea: 1 Carácter: 1
++ cat output.txt
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...rial\output.txt:String) [Get-Content], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> ls > output.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="another"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir1"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir2"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir3"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir4"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 1"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 2"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 3"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 4"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 5"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 6"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="output.txt"
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+-a----         15/4/2026     20:33           3770 output.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cat output.txt
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+-a----         15/4/2026     20:33              0 output.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cat
+>> ErrorTerminación(): "Se ha detenido la canalización."
+>> ErrorTerminación(): "Se ha detenido la canalización."
+PS C:\Users\Alan\documents\prueba\tutorial> echo "esto es un texto"
+esto es un texto
+PS C:\Users\Alan\documents\prueba\tutorial> echo "This is a test" > test_1.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a test"
+PS C:\Users\Alan\documents\prueba\tutorial> echo "This is a second test" > test_2.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a second test"
+PS C:\Users\Alan\documents\prueba\tutorial> echo "This is a third test" > test_3.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a third test"
+PS C:\Users\Alan\documents\prueba\tutorial> ls
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:04                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+-a----         15/4/2026     20:33           3770 output.txt
+-a----         15/4/2026     20:35             34 test_1.txt
+-a----         15/4/2026     20:35             48 test_2.txt
+-a----         15/4/2026     20:35             46 test_3.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cat test_1.txt test_2.txt test_3.txt
+>> ErrorTerminación(Get-Content): "No se encuentra ningún parámetro de posición que acepte el argumento 'test_2.txt'."
+Get-Content : No se encuentra ningún parámetro de posición que acepte el argumento 'test_2.txt'.
+En línea: 1 Carácter: 1
++ cat test_1.txt test_2.txt test_3.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Content], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : No se encuentra ningún parámetro de posición que acepte el argumento 'test_2.txt'.
+En línea: 1 Carácter: 1
++ cat test_1.txt test_2.txt test_3.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Content], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> cat test_1.txt, test_2.txt, test_3.txt
+This is a test
+This is a second test
+This is a third test
+PS C:\Users\Alan\documents\prueba\tutorial> cat test_?.txt
+This is a test
+This is a second test
+This is a third test
+PS C:\Users\Alan\documents\prueba\tutorial> cat test_*
+This is a test
+This is a second test
+This is a third test
+PS C:\Users\Alan\documents\prueba\tutorial> cat t* > combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a third test"
+PS C:\Users\Alan\documents\prueba\tutorial> cat combined.txt
+This is a test
+This is a second test
+This is a third test
+PS C:\Users\Alan\documents\prueba\tutorial> cat t* >> combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a third test"
+PS C:\Users\Alan\documents\prueba\tutorial> echo "I've appended a line!" >> combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="I've appended a line!"
+PS C:\Users\Alan\documents\prueba\tutorial> cat combined.txt
+This is a test
+This is a second test
+This is a third test
+This is a test
+This is a second test
+This is a third test
+I've appended a line!
+PS C:\Users\Alan\documents\prueba\tutorial> less combined.txt
+less : El término 'less' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ less combined.txt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (less:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+less : El término 'less' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ less combined.txt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (less:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> mv combined.txt dir1
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir1
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         15/4/2026     20:36            292 combined.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> mv dir1/*
+mv : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir1\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir1/*
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...orial\dir1\dir1:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir1\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir1/*
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...orial\dir1\dir1:String) [Move-Item], ItemNotFoundExce
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> mv dir1/* .
+mv : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir1\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir1/* .
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...orial\dir1\dir1:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir1\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir1/* .
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...orial\dir1\dir1:String) [Move-Item], ItemNotFoundExce
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> cd
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> mv dir1/* .
+mv : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir1\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir1/* .
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...orial\dir1\dir1:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir1\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir1/* .
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...orial\dir1\dir1:String) [Move-Item], ItemNotFoundExce
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> mv dir1/*
+mv : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir1\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir1/*
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...orial\dir1\dir1:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir1\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir1/*
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...orial\dir1\dir1:String) [Move-Item], ItemNotFoundExce
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial> mv dir1/*
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:37                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+-a----         15/4/2026     20:36            292 combined.txt
+-a----         15/4/2026     20:33           3770 output.txt
+-a----         15/4/2026     20:35             34 test_1.txt
+-a----         15/4/2026     20:35             48 test_2.txt
+-a----         15/4/2026     20:35             46 test_3.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir1
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> ls
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> dir
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial> mv combined.txt dir1
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:39                dir1
+d-----         15/4/2026     20:04                dir2
+d-----         15/4/2026     20:04                dir3
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+-a----         15/4/2026     20:33           3770 output.txt
+-a----         15/4/2026     20:35             34 test_1.txt
+-a----         15/4/2026     20:35             48 test_2.txt
+-a----         15/4/2026     20:35             46 test_3.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir1
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> cd
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         15/4/2026     20:36            292 combined.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir1> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial> mv dir1/* .
+PS C:\Users\Alan\documents\prueba\tutorial> mv combined.txt test_* dir3 dir2
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> mv combined.txt test_* dir3 dir2
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> mv combined.txt, test_*, dir3 -Destination dir2
+PS C:\Users\Alan\documents\prueba\tutorial> dir2
+dir2 : El término 'dir2' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ dir2
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (dir2:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+dir2 : El término 'dir2' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ dir2
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (dir2:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir2
+PS C:\Users\Alan\documents\prueba\tutorial\dir2> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                dir3
+-a----         15/4/2026     20:36            292 combined.txt
+-a----         15/4/2026     20:35             34 test_1.txt
+-a----         15/4/2026     20:35             48 test_2.txt
+-a----         15/4/2026     20:35             46 test_3.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir2> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial> mv dir2/combined.txt dir4/dir5/dir6
+PS C:\Users\Alan\documents\prueba\tutorial> dir2
+dir2 : El término 'dir2' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ dir2
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (dir2:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+dir2 : El término 'dir2' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ dir2
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (dir2:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir2
+PS C:\Users\Alan\documents\prueba\tutorial\dir2> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                dir3
+-a----         15/4/2026     20:35             34 test_1.txt
+-a----         15/4/2026     20:35             48 test_2.txt
+-a----         15/4/2026     20:35             46 test_3.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir2> cd
+PS C:\Users\Alan\documents\prueba\tutorial\dir2> cd dir3
+PS C:\Users\Alan\documents\prueba\tutorial\dir2\dir3> dir
+PS C:\Users\Alan\documents\prueba\tutorial\dir2\dir3> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial\dir2> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir4
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> cd
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:06                dir5
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> cd dir5
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:41                dir6
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir 5
+>> ErrorTerminación(Set-Location): "No se encuentra ningún parámetro de posición que acepte el argumento '5'."
+Set-Location : No se encuentra ningún parámetro de posición que acepte el argumento '5'.
+En línea: 1 Carácter: 1
++ cd dir 5
++ ~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : No se encuentra ningún parámetro de posición que acepte el argumento '5'.
+En línea: 1 Carácter: 1
++ cd dir 5
++ ~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir5
+cd : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir5' porque no existe.
+En línea: 1 Carácter: 1
++ cd dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...a\tutorial\dir5:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir5' porque no existe.
+En línea: 1 Carácter: 1
++ cd dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...a\tutorial\dir5:String) [Set-Location], ItemNotFoundE
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:39                dir1
+d-----         15/4/2026     20:41                dir2
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+-a----         15/4/2026     20:33           3770 output.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir2
+PS C:\Users\Alan\documents\prueba\tutorial\dir2> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                dir3
+-a----         15/4/2026     20:35             34 test_1.txt
+-a----         15/4/2026     20:35             48 test_2.txt
+-a----         15/4/2026     20:35             46 test_3.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir2> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial> cd dir4
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:06                dir5
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> cd dir5
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:41                dir6
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5> cd dir6
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         15/4/2026     20:36            292 combined.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6> ErrorTerminación(TabExpansion2): "No se puede enlazar el argumento con el parámetro 'inputScript' porque es una cadena vacía."
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6> cd ....
+>> ErrorTerminación(Set-Location): "No existe ningún objeto en la ruta de acceso especificada, C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6\....."
+cd : No existe ningún objeto en la ruta de acceso especificada, 
+C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6\.....
+En línea: 1 Carácter: 1
++ cd ....
++ ~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], PSArgumentException
+    + FullyQualifiedErrorId : Argument,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No existe ningún objeto en la ruta de acceso especificada,
+C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6\.....
+En línea: 1 Carácter: 1
++ cd ....
++ ~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], PSArgumentException
+    + FullyQualifiedErrorId : Argument,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6> cd ../..
+PS C:\Users\Alan\documents\prueba\tutorial\dir4> cd ..
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:39                dir1
+d-----         15/4/2026     20:41                dir2
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+-a----         15/4/2026     20:33           3770 output.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> ls dir2
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:04                dir3
+-a----         15/4/2026     20:35             34 test_1.txt
+-a----         15/4/2026     20:35             48 test_2.txt
+-a----         15/4/2026     20:35             46 test_3.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> ls dir4/dir5/dir6
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         15/4/2026     20:36            292 combined.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cp dir4/dir5/dir6/combined.txt .
+PS C:\Users\Alan\documents\prueba\tutorial> ls dir4/dir5/dir6
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         15/4/2026     20:36            292 combined.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:39                dir1
+d-----         15/4/2026     20:41                dir2
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+-a----         15/4/2026     20:36            292 combined.txt
+-a----         15/4/2026     20:33           3770 output.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> cp combined.txt backup_combined.txt
+PS C:\Users\Alan\documents\prueba\tutorial> ls
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:39                dir1
+d-----         15/4/2026     20:41                dir2
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder 1
+d-----         15/4/2026     20:09                folder 2
+d-----         15/4/2026     20:10                folder 3
+d-----         15/4/2026     20:09                folder 4
+d-----         15/4/2026     20:09                folder 5
+d-----         15/4/2026     20:32                folder 6
+-a----         15/4/2026     20:36            292 backup_combined.txt
+-a----         15/4/2026     20:36            292 combined.txt
+-a----         15/4/2026     20:33           3770 output.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> mv "folder 1" folder_1
+PS C:\Users\Alan\documents\prueba\tutorial> mv "folder 2" folder_2
+PS C:\Users\Alan\documents\prueba\tutorial> mv "folder 3" folder_3
+PS C:\Users\Alan\documents\prueba\tutorial> mv "folder 4" folder_4
+PS C:\Users\Alan\documents\prueba\tutorial> mv "folder 5" folder_5
+PS C:\Users\Alan\documents\prueba\tutorial> mv "folder 6" folder_6
+PS C:\Users\Alan\documents\prueba\tutorial> ls
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:39                dir1
+d-----         15/4/2026     20:41                dir2
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+d-----         15/4/2026     20:09                folder_1
+d-----         15/4/2026     20:09                folder_2
+d-----         15/4/2026     20:10                folder_3
+d-----         15/4/2026     20:09                folder_4
+d-----         15/4/2026     20:09                folder_5
+d-----         15/4/2026     20:32                folder_6
+-a----         15/4/2026     20:36            292 backup_combined.txt
+-a----         15/4/2026     20:36            292 combined.txt
+-a----         15/4/2026     20:33           3770 output.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm dir4/dir5/dir6/combined.txt combined_backup.txt
+>> ErrorTerminación(Remove-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'combined_backup.txt'."
+Remove-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'combined_backup.txt'.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'combined_backup.txt'.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm dir4/dir5/dir6/combined.txt, combined_backup.txt
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\combined_backup.txt' porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt, combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...ined_backup.txt:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\combined_backup.txt' porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt, combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...ined_backup.txt:String) [Remove-Item], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm dir4/dir5/dir6/combined.txt, combined_backup.txt
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6\combined.txt' porque no 
+existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt, combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...r6\combined.txt:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6\combined.txt' porque no
+existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt, combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...r6\combined.txt:String) [Remove-Item], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\combined_backup.txt' porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt, combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...ined_backup.txt:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\combined_backup.txt' porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt, combined_backup.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...ined_backup.txt:String) [Remove-Item], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm dir4/dir5/dir6/combined.txt
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6\combined.txt' porque no 
+existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...r6\combined.txt:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6\combined.txt' porque no
+existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...r6\combined.txt:String) [Remove-Item], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> ErrorTerminación(TabExpansion2): "No se puede enlazar el argumento con el parámetro 'inputScript' porque es una cadena vacía."
+PS C:\Users\Alan\documents\prueba\tutorial> rm dir4/dir5/dir6/combined.txt, backup_combined.txt
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6\combined.txt' porque no 
+existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt, backup_combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...r6\combined.txt:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso 'C:\Users\Alan\documents\prueba\tutorial\dir4\dir5\dir6\combined.txt' porque no
+existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt, backup_combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Alan\d...r6\combined.txt:String) [Remove-Item], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm folder_*
+Confirmar
+El elemento situado en C:\Users\Alan\documents\prueba\tutorial\folder_6 tiene elementos secundarios y no se especificó el parámetro Recurse. Si continúa, se quitarán todos los secundarios junto con el elemento. ¿Está seguro de que desea continuar?
+&Sí  Sí a t&odo  &No  No a &todo  S&uspender
+S
+PS C:\Users\Alan\documents\prueba\tutorial> rmdir folder_*
+PS C:\Users\Alan\documents\prueba\tutorial> dir
+
+
+    Directorio: C:\Users\Alan\documents\prueba\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     20:08                another
+d-----         15/4/2026     20:39                dir1
+d-----         15/4/2026     20:41                dir2
+d-----         15/4/2026     20:06                dir4
+d-----         15/4/2026     20:08                folder
+-a----         15/4/2026     20:36            292 combined.txt
+-a----         15/4/2026     20:33           3770 output.txt
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm dir4
+Confirmar
+El elemento situado en C:\Users\Alan\documents\prueba\tutorial\dir4 tiene elementos secundarios y no se especificó el parámetro Recurse. Si continúa, se quitarán todos los secundarios junto con el elemento. ¿Está seguro de que desea continuar?
+&Sí  Sí a t&odo  &No  No a &todo  S&uspender
+S
+PS C:\Users\Alan\documents\prueba\tutorial> rmdir folder_*
+PS C:\Users\Alan\documents\prueba\tutorial> wc -l combined.txt
+wc : El término 'wc' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ wc -l combined.txt
++ ~~
+    + CategoryInfo          : ObjectNotFound: (wc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+wc : El término 'wc' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ wc -l combined.txt
++ ~~
+    + CategoryInfo          : ObjectNotFound: (wc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> ls ~ > file_list.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".android"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".cache"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".codex"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".conda"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".continuum"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".ipynb_checkpoints"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".ipython"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".jupyter"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".matplotlib"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".ms-ad"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".openclaw"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".spyder-py3"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".VirtualBox"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".vscode"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="3D Objects"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="ado"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="ansel"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Application Data"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Contacts"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Desktop"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="diversionConPowerShell"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Documents"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Downloads"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Favorites"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Games"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Jedi"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Links"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Microsoft"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Music"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="OneDrive"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Pictures"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="python"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Saved Games"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Searches"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Videos"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="VirtualBox VMs"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".condarc"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".gitconfig"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".RData"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".Rhistory"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".zshrc"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="8.-Cadenas.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="AMDRM_Install.log"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="AMD_RyzenMaster.log"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Beneficio Indirecto.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Calculadora con Plotly.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Calculadora Nueva Versión-Copy1.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Calculadora Nueva Versión.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Calculadora Volumen Operado Merval.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Calculadora.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="comparacion_interanual.xlsx"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Gráficos Salariales  VERSIÓN MARZO.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="install.log"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Precio del Brent.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Untitled.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Untitled1.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Untitled2.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Untitled3.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Untitled4.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Variaciones Salariales.ipynb"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Volumen BYMA.ipynb"
+PS C:\Users\Alan\documents\prueba\tutorial> wc -l file_list.txt
+wc : El término 'wc' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ wc -l file_list.txt
++ ~~
+    + CategoryInfo          : ObjectNotFound: (wc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+wc : El término 'wc' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ wc -l file_list.txt
++ ~~
+    + CategoryInfo          : ObjectNotFound: (wc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> Get-Content file_list.txt | Measure-Object -Line
+
+Lines Words Characters Property
+----- ----- ---------- --------
+   64
+
+
+PS C:\Users\Alan\documents\prueba\tutorial> rm file_list.txt
+PS C:\Users\Alan\documents\prueba\tutorial> ls ~ | wc -l
+wc : El término 'wc' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 8
++ ls ~ | wc -l
++        ~~
+    + CategoryInfo          : ObjectNotFound: (wc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+wc : El término 'wc' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 8
++ ls ~ | wc -l
++        ~~
+    + CategoryInfo          : ObjectNotFound: (wc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> cat combined.txt | uniq | less
+uniq : El término 'uniq' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 20
++ cat combined.txt | uniq | less
++                    ~~~~
+    + CategoryInfo          : ObjectNotFound: (uniq:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+uniq : El término 'uniq' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 20
++ cat combined.txt | uniq | less
++                    ~~~~
+    + CategoryInfo          : ObjectNotFound: (uniq:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> sort combined.txt | less
+less : El término 'less' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 21
++ sort combined.txt | less
++                     ~~~~
+    + CategoryInfo          : ObjectNotFound: (less:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+less : El término 'less' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 21
++ sort combined.txt | less
++                     ~~~~
+    + CategoryInfo          : ObjectNotFound: (less:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alan\documents\prueba\tutorial> tree
+Listado de rutas de carpetas
+El número de serie del volumen es 3697-4AE1
+C:.
+├───another
+├───dir1
+├───dir2
+│   └───dir3
+└───folder
+PS C:\Users\Alan\documents\prueba\tutorial> rm -r /tmp/tutorial
+rm : No se encuentra la ruta de acceso 'C:\tmp\tutorial' porque no existe.
+En línea: 1 Carácter: 1
++ rm -r /tmp/tutorial
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso 'C:\tmp\tutorial' porque no existe.
+En línea: 1 Carácter: 1
++ rm -r /tmp/tutorial
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Alan\documents\prueba\tutorial> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20260415205024
+**********************
